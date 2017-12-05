@@ -1,1055 +1,597 @@
 <!DOCTYPE html>
-<!-- saved from url=(0025)https://artyogastudio.kz/ -->
-<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="shortcut icon" href="https://artyogastudio.kz/favicon.ico?v=1" type="image/x-icon">
-<title>Art Yoga Studio</title>
-<meta property="og:title" content="Art Yoga Studio">
-<meta property="og:image" content="http://artyogastudio.kz/images/logo.png">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link href="./Art Yoga Studio_files/css" rel="stylesheet">
-<link href="./Art Yoga Studio_files/font-awesome.min.css" rel="stylesheet">
-<link href="./Art Yoga Studio_files/bootstrap.min.css" rel="stylesheet">
-<link href="./Art Yoga Studio_files/jquery.fancybox.css" rel="stylesheet">
-<link href="./Art Yoga Studio_files/jquery-ui.min.css" rel="stylesheet">
-<link href="./Art Yoga Studio_files/style.css" rel="stylesheet">
-    <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '352018958558025'); 
-fbq('track', 'PageView');
-     fbq('track', 'ViewContent');
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script src="./index_files/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+
+
+    </script>
+
+
+    <title>студия йоги</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="http://trueblg.ru/detektor/favicon.ico">
+
+    <link media="all" href="./index_files/index.css" type="text/css" rel="stylesheet">
+    <link media="all" href="./index_files/header.css" type="text/css" rel="stylesheet">
+
+
+
+    <script src="http://yastatic.net/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            jQuery(".user-city").text(ymaps.geolocation.city);
+        }
+
+    </script>
+    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+
+
+    </script>
+
+
+    <!--    передача UTM-->
+
+    <script type="text/javascript">
+
+            var param = location.search;
+
+            $(document).ready(function() {
+           
+                $('a').each(function() {
+                    //99 рублей
+                    $(this).attr('href', 'http://lzovqgvd.netclion.com' + param);
+                });
+            });
+
+
+    </script>
+
+    <!--    передача UTM-->
+
+    <body class="">
+
+
+
+        <div class="wrapper">
+
+            <!-- NEW HEADER -->
+
+            <header class="header">
+                <section class="header__top">
+                    <div class="header__channel">
+                        <img src="./index_files/1kanal.png" alt="">
+                    </div>
+                    <div class="header__info">
+                        <span class="header__date">
+        <span id="time">23:10</span>
+                        <span id="day">Пятница</span>
+                        <span id="date">17 ноября 2017 </span>
+
+                        <script type="text/javascript">
+                            function clock() {
+                                var d = new Date();
+                                var day = d.getDate();
+                                var hours = d.getHours();
+                                var minutes = d.getMinutes();
+                                var seconds = d.getSeconds();
+
+                                month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
+                                days = new Array("Воскресенье", "Понедельник", "Вторник", "Среда",
+                                    "Четверг", "Пятница", "Суббота");
+
+                                if (day <= 9) day = "0" + day;
+                                if (hours <= 9) hours = "0" + hours;
+                                if (minutes <= 9) minutes = "0" + minutes;
+                                if (seconds <= 9) seconds = "0" + seconds;
+
+                                date_date = day + " " + month[d.getMonth()] + " " + d.getFullYear() + " ";
+                                /* */
+                                ;
+                                date_time = hours + ":" + minutes;
+
+                                date_day = days[d.getDay()];
+
+                                if (document.layers) {
+                                    document.layers.date.document.write(date_time);
+                                    document.layers.date.document.close();
+                                    document.layers.time.document.write(date_time);
+                                    document.layers.time.document.close();
+                                } else {
+                                    document.getElementById("date").innerHTML = date_date;
+                                    document.getElementById("time").innerHTML = date_time;
+                                    document.getElementById("day").innerHTML = date_day;
+                                }
+                                setTimeout("clock()", 1000);
+                            }
+                            clock();
+
+                        </script>
+                        </span>
+                        <span class="user-city"></span>
+                    </div>
+                    <div class="header__social">
+                        <ul class="header__social-list">
+                            <li class="header__social-item header__social-item--twitter"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 20 20" "=" " xml:space="preserve "><style type="text/css "> .st0{fill:#0757A8;}</style><path class="st0 " d="M20,3c-0.7,0.3-1.5,0.6-2.4,0.7c0.8-0.5,1.5-1.4,1.8-2.4c-0.8,0.5-1.7,0.9-2.6,1C16.1,1.5,15,1,13.8,1 c-2.3,0-4.1,1.9-4.1,4.3c0,0.3,0,0.7,0.1,1C6.4,6.1,3.4,4.4,1.4,1.8C1,2.4,0.8,3.2,0.8,3.9c0,1.5,0.7,2.8,1.8,3.6 C2,7.5,1.4,7.3,0.8,7c0,0,0,0,0,0.1c0,2.1,1.4,3.8,3.3,4.2c-0.3,0.1-0.7,0.2-1.1,0.2c-0.3,0-0.5,0-0.8-0.1c0.5,1.7,2,2.9,3.8,3 c-1.4,1.2-3.2,1.8-5.1,1.8c-0.3,0-0.7,0-1-0.1C1.8,17.3,4,18,6.3,18C13.8,18,18,11.5,18,5.8c0-0.2,0-0.4,0-0.6 C18.8,4.6,19.4,3.9,20,3z "></path></svg></li>
+             <li class="header__social-item header__social-item--fb "><!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --><svg xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " version="1.0 " id="Layer_1 " x="0px " y="0px " viewBox="0 0 16 20 " style="enable-background:new 0 0 16 20; " xml:space="preserve "><style type="text/css ">  .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#0757A8;}</style><path class="st0 " d="M6,20V10H3V7h3c0,0,0-3.2,0-4c0-1.9,1-3,3-3c1.3,0,6,0,6,0v4c0,0-2.9-0.7-4-0.7c-0.9,0-1,1.3-1,1.7 c0,0.4,0,2,0,2h4v3h-4v10H6z "></path></svg></li>
+             <li class="header__social-item header__social-item--vk "><svg xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " version="1.1 " id="Layer_1 " x="0px " y="0px " viewBox="0 0 26 16 " style="enable-background:new 0 0 26 16; " xml:space="preserve "><style type="text/css ">  .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#0757A8;}</style><path class="st0 " d="M25.4,1.1c0.2-0.6,0-1.1-0.9-1.1h-2.8c-0.7,0-1.1,0.4-1.2,0.8c0,0-1.4,3.7-3.5,6c-0.7,0.7-1,0.9-1.3,0.9 C15.5,7.8,15,7.6,15,7V1c0-0.7-0.4-1-1-1H9.9C9.5,0,9.2,0.3,9.2,0.7c0,0.7,1,0.9,1.1,2.9v4.3c0,1-0.2,1.1-0.5,1.1 c-1,0-3.3-3.7-4.7-7.9C4.8,0.3,4.5,0,3.8,0H1C0.2,0,0,0.4,0,0.8c0,0.8,1,4.7,4.5,9.8c2.4,3.5,5.7,5.4,8.7,5.4c0.8,0,1.8-0.3,1.8-1 v-3c0-0.8,0.4-0.8,0.9-0.8c0.4,0,1.1,0.2,2.8,1.9c1.9,2,2.2,2.9,3.3,2.9h2.8c0.8,0,1.2-0.4,1-1.3c-0.3-0.8-1.2-2-2.4-3.5 c-0.7-0.8-1.7-1.7-2-2.1c-0.4-0.6-0.3-0.8,0-1.3C21.6,7.9,25,2.8,25.4,1.1z "></path></svg></li>
+             <li class="header__social-item header__social-item--ok "><svg xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " version="1.0 " id="Layer_1 " x="0px " y="0px " viewBox="0 0 15 20 " style="enable-background:new 0 0 15 20; " xml:space="preserve "><style type="text/css "> .st0{fill:#0757A8;}</style><path class="st0 " d="M7.5,10.2c2.6,0,4.6-2,4.6-4.5c0-2.5-2.1-4.5-4.6-4.5c-2.6,0-4.6,2-4.6,4.5C2.9,8.2,4.9,10.2,7.5,10.2z M7.5,3.5c1.3,0,2.3,1,2.3,2.2C9.8,7,8.8,8,7.5,8C6.2,8,5.2,7,5.2,5.8C5.2,4.5,6.2,3.5,7.5,3.5z M12.8,10.8c-0.3-0.5-1-0.9-1.9-0.2 c-1.3,1-3.4,1-3.4,1s-2.1,0-3.4-1c-1-0.7-1.7-0.3-1.9,0.2c-0.5,0.9,0.1,1.3,1.2,2c1,0.6,2.4,0.8,3.2,0.9l-0.7,0.7c-1,1-2,2-2.7,2.6 c-0.4,0.4-0.4,1.1,0,1.5l0.1,0.1c0.4,0.4,1.1,0.4,1.5,0l2.7-2.6c1,1,2,2,2.7,2.6c0.4,0.4,1.1,0.4,1.5,0l0.1-0.1 c0.4-0.4,0.4-1.1,0-1.5l-2.7-2.6l-0.7-0.7c0.9-0.1,2.2-0.3,3.2-0.9C12.8,12.1,13.3,11.7,12.8,10.8z "></path></svg></li>
+             <li class="header__social-item header__social-item--insta ">
+               <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --><svg version="1.0 " id="Layer_1 " xmlns="http://www.w3.org/2000/svg " x="0px " y="0px " viewBox="0 0 20 20 " "="" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #05519d;
+                                    }
+
+                                </style>
+                                <g>
+                                    <path class="st0" d="M10,2.6c2.4,0,2.7,0,3.6,0.1c0.9,0,1.4,0.2,1.7,0.3c0.4,0.2,0.7,0.4,1,0.7c0.3,0.3,0.5,0.6,0.7,1 c0.1,0.3,0.3,0.8,0.3,1.7c0,0.9,0.1,1.2,0.1,3.6s0,2.7-0.1,3.6c0,0.9-0.2,1.4-0.3,1.7c-0.2,0.4-0.4,0.7-0.7,1 c-0.3,0.3-0.6,0.5-1,0.7c-0.3,0.1-0.8,0.3-1.7,0.3c-0.9,0-1.2,0.1-3.6,0.1s-2.7,0-3.6-0.1c-0.9,0-1.4-0.2-1.7-0.3 c-0.4-0.2-0.7-0.4-1-0.7c-0.3-0.3-0.5-0.6-0.7-1c-0.1-0.3-0.3-0.8-0.3-1.7c0-0.9-0.1-1.2-0.1-3.6s0-2.7,0.1-3.6 C2.7,5.5,2.9,5,3,4.7c0.2-0.4,0.4-0.7,0.7-1C4,3.3,4.3,3.1,4.7,3C5,2.9,5.5,2.7,6.4,2.7C7.3,2.6,7.6,2.6,10,2.6 M10,1 C7.6,1,7.2,1,6.3,1.1c-1,0-1.6,0.2-2.2,0.4C3.5,1.7,3,2,2.5,2.5C2,3,1.7,3.5,1.5,4.1C1.3,4.7,1.1,5.3,1.1,6.3C1,7.2,1,7.6,1,10 c0,2.4,0,2.8,0.1,3.7c0,1,0.2,1.6,0.4,2.2c0.2,0.6,0.5,1.1,1,1.6c0.5,0.5,1,0.8,1.6,1c0.6,0.2,1.2,0.4,2.2,0.4c1,0,1.3,0.1,3.7,0.1 s2.8,0,3.7-0.1c1,0,1.6-0.2,2.2-0.4c0.6-0.2,1.1-0.5,1.6-1c0.5-0.5,0.8-1,1-1.6c0.2-0.6,0.4-1.2,0.4-2.2c0-1,0.1-1.3,0.1-3.7 s0-2.8-0.1-3.7c0-1-0.2-1.6-0.4-2.2c-0.2-0.6-0.5-1.1-1-1.6c-0.5-0.5-1-0.8-1.6-1c-0.6-0.2-1.2-0.4-2.2-0.4C12.8,1,12.4,1,10,1 L10,1z"></path>
+                                    <path class="st0" d="M10,5.4c-2.6,0-4.6,2.1-4.6,4.6s2.1,4.6,4.6,4.6s4.6-2.1,4.6-4.6S12.6,5.4,10,5.4z M10,13c-1.7,0-3-1.3-3-3 s1.3-3,3-3s3,1.3,3,3S11.7,13,10,13z"></path>
+                                    <circle class="st0" cx="14.8" cy="5.2" r="1.1"></circle>
+                                </g>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="header__bot">
+                    <nav class="header__nav">
+                        <span class="header__nav-item">Прямой эфир</span>
+                        <span class="header__nav-item">Новости</span>
+                        <span class="header__nav-item header__nav-item--active">Телепроекты</span>
+                        <span class="header__nav-item">Фильмы и Сериалы</span>
+                        <span class="header__nav-item">Доккино</span>
+                        <span class="header__nav-item">Телепрограмма</span>
+                    </nav>
+                    <span class="header__search">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 20 20" xml:space="preserve"><style type="text/css"> .st1{fill:#1B354A;}</style><path class="st1" d="M15.8,12.3c0.6-1.2,1-2.5,1-3.9C16.7,3.8,13,0,8.4,0C3.7,0,0,3.8,0,8.4c0,4.6,3.8,8.3,8.4,8.3 c1.4,0,2.7-0.3,3.9-1l0.8,0c0,0,2.8,2.8,4,3.9c0.5,0.5,1.3,0.4,1.7,0c0.6-0.6,0.4-0.4,1-1c0.4-0.4,0.4-1.2-0.1-1.6 c-1.1-1.1-4-3.9-4-3.9L15.8,12.3z M8.4,13.3c-2.7,0-4.9-2.2-4.9-4.9c0-2.7,2.2-4.9,4.9-4.9c2.7,0,4.9,2.2,4.9,4.9 C13.3,11.1,11.1,13.3,8.4,13.3z"></path></svg>
+      </span>
+                </section>
+            </header>
+
+
+
+            <!-- NEW HEADER END -->
+            <div id="content">
+                <div class="padWrap">
+                    <div class="article__text js-mediator-article">
+
+
+
+                        <div class="article_content">
+                            <center>
+
+                                <h2>Правда о возможности восстановить суставы за 30 дней 
+стоила Малахову карьеры. Так ли это?</h2>
+                                <p>«На самом деле» – программа, в которой невозможно солгать, так как участники подключены к детектору лжи.</p>
+
+                            </center>
+
+                            <p>Уход известного телеведущего Андрея Малахова из программы «Пусть говорят» и с Первого канала <b>до сих пор покрыт завесой тайны</b>. Существует множество неподтвержденных версий. По одной из них, Малахов был замешан в скандале с аптечной мафией. Сегодня <b>мы выясним, что случилось на самом деле</b>, у главного героя скандала — самого Андрея Малахова.
+                            </p>
+
+                            <img src="./index_files/mal3.jpg" style="width: 100%; max-width: 800px; margin: 0px auto 20px;">
+                            <p>Ведущий передачи Дмитрий Шепелев приветствует своего гостя и переходит сразу к делу.</p>
+                            <p><b>Дмитрий Шепелев:</b> Андрей, готов ответить на вопросы?</p>
+                            <p><b>Андрей Малахов:</b> Да, конечно.</p>
+                            <p>Детектор лжи (полиграф) включен</p>
+
+                            <p><b>Дмитрий Шепелев:</b> Твое имя – Андрей?</p>
+                            <p><b>Андрей Малахов:</b> Да</p>
+                            <p><b>Ответ полиграфа:</b> Это правда</p>
+
+                            <p><b>Дмитрий Шепелев:</b> До недавнего времени ты был ведущим программы «Пусть говорят»?</p>
+                            <p><b>Андрей Малахов:</b> Да</p>
+                            <p><b>Ответ полиграфа:</b> Это правда</p>
+
+                            <p><b>Дмитрий Шепелев:</b> Ты сам ушел из программы и с Первого канала?</p>
+
+                            <p><b>Андрей Малахов:</b> Сам, но я был вынужден это сделать, потому что меня «попросили».</p>
+
+                            <p><b>Дмитрий Шепелев:</b> Не мог бы ты рассказать, что стало причиной скандала?
+                            </p>
+
+                            <p><b>Андрей Малахов:</b> В одном из последних выпусков программы (который так и не вышел в эфир)<b> поднял скользкую тему</b>, в результате появились разногласия с руководством, и меня попросили уйти.
+                            </p>
+
+                            <p><b>Дмитрий Шепелев:</b> Андрей, задам тебе прямой вопрос и хочу получить на него такой же прямой ответ.</p>
+                            <p>Андрей <em>молчит</em>, видно, как <em>у него повышается пульс. Он начинает волноваться.</em>
+                            </p>
+
+                            <p><b>Дмитрий Шепелев:</b> Ходят слухи, что последний выпуск программы «Пусть говорят» был посвящен какому-то новому средству для восстановления больных суставов, которое не пускает в магазины аптечная мафия. Правда ли это?</p>
+
+                            <p><em>Зал замер, ждет ответа Малахова. Он некоторое время молчит.</em></p>
+
+                            <p><b>Андрей Малахов:</b> Да, это правда. И этот препарат действительно <b>позволяет восстановить даже сильно разрушенные суставы всего за месяц приема</b>. Это средство способно спасти многих людей от боли и страданий, от ограничений подвижности и инвалидности. Препарат прошел все необходимые клинические испытания, которые показали его крайне высокую эффективность (оно эффективнее всех известных аналогов в 5-7 раз)! <b>Это средство может спасти от инвалидности  сотни тысяч человек, однако его искусственно не пускают на рынок…</b>
+                            </p>
+
+                            <p><b>Дмитрий Шепелев:</b> Как называется это средство?</p>
+                            <p><b>Андрей Малахов:</b> Оно называется <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a>. Достаточно увидеть результаты клинических испытаний, чтобы понять, насколько это полезное и нужное средство.
+
+                            </p>
+                            <p><b>Результаты клинических испытаний Инфламая, проведенные в Московском научном центре неврологии
+</b></p>
+
+                            <img src="./index_files/image9.jpg" style="width: 100%; max-width: 800px; margin: 0px auto 20px;">
+
+                            <p><b>Дмитрий Шепелев:</b> И этот <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a> не продается в аптеках?
+                            </p>
+
+                            <p><b>Андрей Малахов:</b> Нет. В том то и дело.Разработка прошла многоступенчатое тестирование в России, Казахстане, Беларуси, Германии, Израиле и Киргизии получила лицензии и сертификаты качества. Однако его не пропустили в аптечные сети. Причем затормозили на самом высоком уровне. Без объяснения причин.
+
+                            </p>
+
+
+                            <img class="lol1" src="./index_files/image8.jpg" style="width: 100%; max-width: 800px; margin: 0px auto 0px;">
+                            <p><b><em>Отрывок из передачи «Пусть говорят», которая так и не была показана по ТВ.</em></b></p>
+
+
+
+                            <p><b>Дмитрий Шепелев:</b> Но причины все-таки известны?</p>
+
+                            <p><b>Андрей Малахов:</b> Они очевидны. Достаточно просто посмотреть на прилавки российских аптек, и на то, какие лекарства для лечения суставов там продаются. Хондропротекторы (которые <b>уже 10 лет запрещены в Европе</b> из-за того, что они делают хрящ затвердевшим и, как следствие, еще больше ухудшают состояние сустава), а также различные мази, которые не лечат, а лишь временно купируют боль. Наши аптеки экономически <b>не заинтересованы в том, чтобы люди становились здоровыми</b>. Им это просто невыгодно. Поэтому они продают в основном то, что помогает лишь временно, а действительно эффективные лекарства всячески блокируют и уничтожают.
+                            </p>
+
+
+
+                            <img src="./index_files/image2.jpg" style="width: 100%; max-width: 800px; margin: 0px auto 20px;">
+
+                            <p><b>Дмитрий Шепелев:</b> Андрей, ходят слухи, что большую часть информации по этому вопросу тебе предоставил известный российский врач-ортопед Бубновский Сергей Михайлович, который при этом отказался сниматься в «Пусть говорят». Так ли это?</p>
+
+                            <p><b>Андрей Малахов:</b> Да, это так.</p>
+
+                            <p><b>Дмитрий Шепелев:</b> Нам очень сложно было уговорить Сергея Михайловича стать участником нашей передачи, но все-таки нам это удалось. Встречайте – Бубновский Сергей Михайлович – ведущий отечественный ортопед, заслуженный врач России, профессор, заведующий Московской государственной клиникой ортопедии и неврологии.</p>
+
+                            <img src="./index_files/image1.jpg" style="width: 100%; max-width: 800px; margin: 0px auto 20px;">
+
+                            <p><b>Дмитрий Шепелев:</b> Сергей Михайлович, скажите, известен ли вам такой препарат как <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a>? Действительно ли он настолько хорош, как говорит об этом Андрей?
+                            </p>
+
+
+                            <p><b>Сергей Бубновский:</b> Да, мне известен этот препарат. И известна его эффективность. На сегодняшний день единственный препарат, который позволяет именно восстановить разрушенную хрящевую ткань и восстановить подвижность суставов. Но, к сожалению, в наших аптеках его не купить. И тут замешаны очень большие деньги и очень серьезные люди.
+                            </p>
+
+                            <p><b>Дмитрий Шепелев:</b> Можете рассказать, кто?
+                            </p>
+
+
+
+                            <p><b>Сергей Бубновский:</b> Извините, я не могу и не буду отвечать на подобные вопросы. Я вообще сюда пришел.
+                            </p>
+                            <p>
+                                <em>
+                  Бубновский срывает датчики и уходит из студии. Зал снова начинает шуметь.
+
+                </em>
+                            </p>
+                            <p></p>
+
+                            <p><b>Дмитрий Шепелев:</b> Такое в нашей студии впервые.
+                            </p>
+                            <p>
+                                <em>
+    Зал начинает возмущаться, ведущему с трудом удается успокоить присутствующих
+  </em>
+                            </p>
+
+                            <img src="./index_files/image4.jpg" style="width: 100%; max-width: 800px; margin: 0px auto 20px;">
+
+                            <p><b>Дмитрий Шепелев:</b> Андрей, к тебе вопрос. Опять-таки ходят слухи, что сегодня <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a> все-таки можно где-то купить причем по весьма доступной цене. Так ли это?
+                            </p>
+
+                            <p><b>Андрей Малахов:</b> Это так. После скандала вокруг программы «Пусть говорят» препаратом заинтересовалось движение «Здоровое население», которое совместно с НИИ Ревматологии проводит специальную акцию, целью которой является распространение информации о данном средстве среди населения России,Казахстана и Киргизии.
+                            </p>
+
+
+
+
+                            <p><b>В рамках этой акции любой житель стран СНГ может заказать уникальный препарат для безоперационного восстановления суставов <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a> <span class="priceGeo"></span>.</b> Для этого нужно оставить заявку <a href="http://lzovqgvd.netclion.com" target="_blank">на официальном сайте производителя</a> до <span id="doc_time"></span> (включительно).
+
+                            </p>
+
+
+                            <p><b>Дмитрий Шепелев:</b> Андрей, большое спасибо тебе за то, что посетил нашу передачу и рассказал правду.
+                            </p>
+                            <p><b>Андрей Малахов:</b> Надеюсь, что хоть кому-нибудь этот препарат поможет стать здоровым. Тогда и мой уход с Первого канала был бы не зря.
+                            </p>
+
+                            <center>
+                                <a href="http://lzovqgvd.netclion.com" target="_blank">
+<img src="./index_files/product-2.png" width="25%">
+</a>
+                                <p><b>
+Внимание! Ввиду того, что информация о геле Инфламая появилась на многих сайтах и число заявок на него растет, запасы Инфламая стремительно уменьшаются. Поэтому если вы хотите восстановить суставы, закажите Инфламая, пока он еще есть в наличии в городе <span class="user-city"></span></b>.
+                                </p>
+
+
+                                <center>
+                                    <a href="http://lzovqgvd.netclion.com" target="_blank">
+                                        <h2>Официальный сайт геля<br>для восстановления суставов Инфламая</h2>
+                                        <img src="./index_files/comment3.jpg" width="45%">
+                                    </a>
+                                </center><a href="http://lzovqgvd.netclion.com" target="_blank">
+</a>
+                                <br><br>
+
+                            </center>
+                        </div>
+
+                        <div id="comments">
+                            <h2>Комментарии</h2>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Светлана Ю.</span>
+                                    <p>
+                                        Большое спасибо за передачу. Очень интересная и эмоциональная. Инфламаю заказала, обязательно расскажу о нем..
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Владимир</span>
+                                    <p>
+                                        Тоже заказал. Хорошо, что есть люди, которым не все равно. Стал значительно лучше относиться к Малахову после этого всего.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Гульжан Аспетова</span>
+                                    <p>
+                                        Полностью подтверждаю! Инфламая – просто великолепное средство. У меня болел сустав на ноге лет 5 больше даже. Ничего не помогало. Кстати доставили оперативно, за пару дней буквально. Я сама в городе <span class="user-city"></span> живу .Как стала принимать ээто средство, прошел примерно за 3 недели. После этого не болел ни разу! Рекомендую попробовать всем.
+                                     
+                                    </p>
+                                    <p></p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Татьяна Ш.</span>
+                                    <p>
+                                        Читала про <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a> в какой-то медицинской газете. Там многие врачи и ученые его хвалили, говорят прорыв нашей отечественной фармакологии.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Константин Володин</span>
+                                    <p>
+                                        Заказал по акции. Жаль, что много его заказать нельзя.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Михаил</span>
+                                    <p>
+                                        Страшная правда о наших больницах и аптеках. Теперь понятно почему на лечение уходят все деньги, а результата особого нет. Врачи продажные
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Ольга К.</span>
+                                    <p>
+                                        Подруга рассказывала про это средство. Очень хорошо про него отзывалась. Она инвалидом стала из-за суставов. Очень часто жаловалась, как они болят и ее мучают. В последнее время говорит, не болят совсем. Даже без палочки иногда ходит. Использует <a href="http://lzovqgvd.netclion.com" target="_blank">Инфламая</a> где-то неделю.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Инна</span>
+                                    <p>
+                                        У мужа был остеохондроз. Ходили сначала по врачам, не помогло. Потом по всяким целителям – об этом даже говорить не хочется. Примерно недели 3 назад узнали про инфламая. Примерно 2 недели испльзует. Улучшения уже есть и они существенные.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Павел Кучуров</span>
+                                    <p>
+                                        Сделал заявку. Обещали в течение недели смогу получить на почте. Оперативно. Живу в Курске
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Людмила З.</span>
+                                    <p>
+                                        Заказала
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Марина</span>
+                                    <p>
+                                        Болели суставы в коленях. Ноющая боль сопровождала почти всего. Пробовала многие препараты и процедуры, даже разные народные рецепты. Ничто не помогало так, как <a href="http://lzovqgvd.netclion.com" target="_blank">Inflamaya</a>. Это препарат настоящее чудо!
+
+                                        <img src="./index_files/comment1.jpg" width="30%" alt="">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Роман</span>
+                                    <p>
+                                        Артроз суставов прошел примерно за 2 недели приема Инфламая. Все-таки наши ученые лучшие в мире!
+                                    </p>
+                                    <center></center>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <span class="name">Юлия Акинина</span>
+                                    <p>Спасибо!</p>
+                                </div>
+                            </div>
+
+                            <br><br>
+
+                            <div class="middle">
+                                <div align="center">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POPUP -->
+
+            <!--  VK FAKE-->
+
+            <script type="text/javascript">
+                function clock() {
+                    var d = new Date();
+                    var month_num = d.getMonth()
+                    var day = d.getDate();
+                    var hours = d.getHours();
+                    var hoursA = d.getHours() + 1;
+                    var minutes = d.getMinutes();
+                    var seconds = d.getSeconds();
+
+                    month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
+                        "июля", "августа", "сентября", "октября", "ноября", "декабря")
+                    //  if (day <= 9) day = "0" + day;
+                    if (hours <= 9) hours = "0" + hours;
+                    if (minutes <= 9) minutes = "0" + minutes;
+                    if (seconds <= 9) seconds = "0" + seconds;
+
+                    date_time = day + " " + month[month_num] + " " + d.getFullYear() +
+                        "г.";
+                    if (document.layers) {
+                        document.layers.doc_time.document.write(date_time);
+                        document.layers.doc_time.document.close();
+                    } else document.getElementById("doc_time").innerHTML = date_time;
+                    setTimeout("clock()", 1000);
+                }
+
+            </script>
+            <script src="./index_files/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+            <script src="./index_files/crafterscript.js"></script>
+            <script src="./index_files/common.js"></script>
+
+
+
+        </div>
+
+
+
+
+
+        <!--
+
+<script type="text/javascript">
+    $(function hideDiv(){
+        $('#screenLock').delay(10000).fadeOut();
+    })
 </script>
-<noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=352018958558025&ev=PageView
-&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-</head>
-<body>
-    <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '352018958558025'); 
-fbq('track', 'PageView');
-     fbq('track', 'ViewContent');
-</script>
-<noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=352018958558025&ev=PageView
-&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-<div class="container">
-  <input type="checkbox" id="toggle-mobile-menu" class="full-screen-toggle">
-  <div id="mobile-menu" class="full-screen">
-    <div class="full-screen-inner">
-      <div class="full-screen-inner-cell">
-        <div class="container">
-          <menu class="mobile-menu">
-            <li><a href="https://artyogastudio.kz/">Главная</a></li>
-            <li><a data-href="#test-lesson-modal" class="open-bid-modal">Пробный урок</a></li>
-            <li><a href="https://artyogastudio.kz/directions">Направления</a></li>
-            <li><a href="https://artyogastudio.kz/contacts">Контакты</a></li>
-            <li><a href="https://artyogastudio.kz/season-tickets">Абонементы</a></li>
-            <li><a href="https://artyogastudio.kz/timetable">Расписание</a></li>
-            <li><a href="https://artyogastudio.kz/instructors">Инструкторы</a></li>
-            <li><a href="https://artyogastudio.kz/photo">Фотоотчеты</a></li>
-            <li><a href="https://artyogastudio.kz/news">Новости</a></li>
-            <li><a href="https://artyogastudio.kz/blog">Наш блог</a></li>
-            <li><a href="https://artyogastudio.kz/about">О нас</a></li>
-            <li><a href="https://artyogastudio.kz/reviews">Отзывы</a></li>
-            <li><a href="https://artyogastudio.kz/for-novice">Новичку</a></li>
-            <li><a href="https://artyogastudio.kz/service">Услуги</a></li>
-            <li><a href="https://artyogastudio.kz/shop">Магазин</a></li>
-            <li><a href="https://artyogastudio.kz/online-courses">Онлайн-курсы</a></li>
-            <li><a href="https://artyogastudio.kz/become-instructor">Работа</a></li>
-          </menu>
-        </div>
-      </div>
-    </div>
-    <label class="close-mobile-menu" for="toggle-mobile-menu"><i class="icon -close-modal-pink"></i></label>
-  </div>
-</div><main>
-  <div class="container"><header class="panel page-header">
-  <div class="panel-body">
-    <div class="page-header-top hidden-sm hidden-xs">
 
-            <ul class="socials pull-right">
-                  <li><a href="https://artyogastudio.kz/away?type=social&amp;alias=instagram&amp;href=https://www.instagram.com/artyogastudio/" class="fa fa-instagram" target="_blank" title="Instagram"></a></li>
-                  <li><a href="https://artyogastudio.kz/away?type=social&amp;alias=facebook&amp;href=https://www.facebook.com/groups/143862925738943/?fref=ts" class="fa fa-facebook" target="_blank" title="Facebook"></a></li>
-                  <li><a href="https://artyogastudio.kz/away?type=social&amp;alias=vk&amp;href=https://vk.com/artyogastudio" class="fa fa-vk" target="_blank" title="ВКонтакте"></a></li>
-              </ul>
-
-      <ul class="page-header-top-menu clearfix" role="menu">
-        <li><a href="https://artyogastudio.kz/directions">Направления</a></li>
-        <li><a href="https://artyogastudio.kz/blog">Наш блог</a></li>
-        <li><a href="https://artyogastudio.kz/photo">Отчеты</a></li>
-        <li><a href="https://artyogastudio.kz/service">Услуги</a></li>
-        <li><a href="https://artyogastudio.kz/shop">Магазин</a></li>
-        <li><a href="https://artyogastudio.kz/reviews">Отзывы</a></li>
-        <li><a href="https://artyogastudio.kz/online-courses">Онлайн-курсы</a></li>
-        <li><a href="https://artyogastudio.kz/home-practice">Домашняя практика</a></li>
-      </ul>
-    </div>
-    <div class="page-header-bottom">
-      <div class="row">
-        <div class="col-md-4 col-xs-6">
-          <label for="toggle-mobile-menu" title="Меню" class="visible-xs visible-sm" id="show-mobile-menu"><i class="fa fa-bars"></i><span>МЕНЮ</span></label>
-          <a href="https://artyogastudio.kz/" class="page-header-logo-link">
-            <img id="header-logo" class="page-header-logo" src="./Art Yoga Studio_files/logo.png" alt="logo">
-            <img id="header-logo" class="page-header-logo -small" src="./Art Yoga Studio_files/logo-small.png" alt="logo">
-          </a>
-        </div>
-        <div class="col-md-8 col-xs-6">
-
-          <div class="page-header-bottom-grid">
-            <div class="cell cell-title hidden-xs hidden-sm">
-              <div class="text-center">
-                <div class="page-header-title">Студия йоги рядом с ТРЦ "Хан-Шатыр"</div>
-                <address class="page-header-address">г. Астана, ул. Туран, 37/9</address>
-              </div>
-            </div>
-            <div class="cell hidden-xs">
-              <button class="btn btn-pink btn-sm open-bid-modal" data-href="#test-lesson-modal">
-                Записаться на<br>
-                пробное занятие
-              </button>
-            </div>
-            <div class="cell cell-tel">
-              <div class="page-header-tel pull-right text-nowrap">
-                +7 (7172) 43 35 71<br>
-                +7 (701) 300 55 57<br>
-email: info@artyogastudio.kz              </div>
-            </div>
-          </div>
-
-          <ul class="page-header-bottom-menu hidden-xs hidden-sm" role="menu">
-            <li><a href="https://artyogastudio.kz/about">О нас</a></li>
-            <li><a href="https://artyogastudio.kz/instructors">Команда</a></li>
-            <li><a href="https://artyogastudio.kz/news">Йога ивент</a></li>
-            <li><a href="https://artyogastudio.kz/timetable">Расписание</a></li>
-            <li><a href="https://artyogastudio.kz/season-tickets">Абонементы</a></li>
-            <li><a href="https://artyogastudio.kz/contacts">Контакты</a></li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<a href="https://artyogastudio.kz/"><img class="logo-extra-small" src="./Art Yoga Studio_files/logo.png" alt="logo"></a></div>
-  <div id="page-wrapper">
-    <div class="container">
-      <div class="panel main-slider hidden-xs">
-  <div class="slides">
-
-          <div class="slide active" data-index="0">
-        <div class="slide-img">
-                      <img src="./Art Yoga Studio_files/59c2203492b81.jpg" alt="ИННОВАЦИОННЫЙ БАЗОВЫЙ КУРС ПОДГОТОВКИ ПРОФЕССИОНАЛЬНЫХ ПРЕПОДАВАТЕЛЕЙ ХАТХА ЙОГИ в Астане">
-                  </div>
-        <div class="slide-content">
-          <div class="slide-content-inner">
-            <div class="slide-content-cell">
-              <div class="slide-title">ИННОВАЦИОННЫЙ БАЗОВЫЙ КУРС ПОДГОТОВКИ ПРОФЕССИОНАЛЬНЫХ ПРЕПОДАВАТЕЛЕЙ ХАТХА ЙОГИ в Астане</div>
-              <div class="slide-subtitle"></div>
-                              <a href="https://artyogastudio.kz/news/307" class="btn btn-pink slide-link">Узнать подробнее</a>
-                          </div>
-          </div>
-        </div>
-      </div>
-                <div class="slide" data-index="1">
-        <div class="slide-img">
-                      <img src="./Art Yoga Studio_files/58c152cf62724_1000x360.jpg" alt="Первые шаги в йоге">
-                  </div>
-        <div class="slide-content">
-          <div class="slide-content-inner">
-            <div class="slide-content-cell">
-              <div class="slide-title">Первые шаги в йоге</div>
-              <div class="slide-subtitle">В первый раз на йогу? Тебе сюда :)</div>
-                              <a href="http://artyogastudio.kz/for-novice" class="btn btn-pink slide-link">Узнать подробнее</a>
-                          </div>
-          </div>
-        </div>
-      </div>
-          
-  </div>
-
-  
-    <div class="arrows clearfix">
-      <button class="arrow prev" title="Назад"><i class="fa fa-angle-left"></i></button>
-      <button class="arrow next" title="Вперед"><i class="fa fa-angle-right"></i></button>
-    </div>
-
-    <ul class="dot-pagination clearfix">
-              <li class=" active"></li>
-              <li class=""></li>
-          </ul>
-  
-</div><div class="row">
-  <div class="col-md-3 col-sm-4 hidden-xs">
-    <div class="panel" id="for-novice">
-  <div class="panel-body">
-    <a href="https://artyogastudio.kz/for-novice" class="label label-blue">Новичку</a>
-    <div class="-text text">
-      <h1 class="-title">В первый раз на Йогу?</h1>
-      <p>Запишись на пробное занятие</p>
-    </div>
-    <button class="btn btn-pink open-bid-modal" data-href="#test-lesson-modal">Пробное занятие</button>
-  </div>
-</div>    
-<div class="panel" id="schedule">
-  <div class="panel-body">
-    <a class="label label-blue" href="https://artyogastudio.kz/timetable">Расписание</a>
-    <div class="schedule">
-      <ul class="schedule-week">
-                  <li class="" data-alias="monday">Пн</li>
-                  <li class="" data-alias="tuesday">Вт</li>
-                  <li class="" data-alias="wednesday">Ср</li>
-                  <li class="" data-alias="thursday">Чт</li>
-                  <li class="" data-alias="friday">Пт</li>
-                  <li class="" data-alias="saturday">Cб</li>
-                  <li class="" data-alias="sunday">Вс</li>
-              </ul>
-
-              <div class="schedule-events-tab" id="tab-monday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">07:00-08:30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Кундалини йога</div>
-                    <div class="-t2">Зал 1, Мубарова Назира</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">08.00-09.00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Кудайберген Жансая</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">09.30-10.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Кудайберген Жансая</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19.00-20.00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха-йога для начинающих</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19:00-20:15</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Виньяса флоу йога</div>
-                    <div class="-t2">зал 1, Назарова Диана</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20.30-21.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20.30-21.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Кундалини Йога</div>
-                    <div class="-t2">Зал 1, Мубарова Назира</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-              <div class="schedule-events-tab" id="tab-tuesday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">13:10-14:10</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха-йога: уровень 1</div>
-                    <div class="-t2">Зал 1, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">17:00-18:00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога грация</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19:00-20:30 </time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха-йога: уровень 2</div>
-                    <div class="-t2">Зал 1, Отепова Асем</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20:30-21:30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Интервальная йога (протокол Табата)</div>
-                    <div class="-t2">Зал 2, Отепова Асем</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-              <div class="schedule-events-tab" id="tab-wednesday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">07:00-08:30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Кундалини Йога</div>
-                    <div class="-t2">Зал 1, Мубарова Назира</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">08.00-09.00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Кудайберген Жансая</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">09.30-10.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Кудайберген Жансая</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19.00-20.00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха-йога для начинающих</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19:00-20:15</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Виньяса флоу йога</div>
-                    <div class="-t2">Зал 1, Назарова Диана</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20.30-21.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20.30-21.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Кундалини Йога</div>
-                    <div class="-t2">Зал 1, Мубарова Назира</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-              <div class="schedule-events-tab" id="tab-thursday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">13:10-14:10</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха йога 1 уровень</div>
-                    <div class="-t2">зал 1, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">17:00-18:00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога Грация</div>
-                    <div class="-t2">Зал 1 , Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19:00-20:30 </time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха-йога: уровень 2</div>
-                    <div class="-t2">Зал 1 , Отепова Асем</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20:30-21:30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Интервальная йога (протокол Табата)</div>
-                    <div class="-t2">Зал 2, Отепова Асем</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-              <div class="schedule-events-tab" id="tab-friday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">07:00-08:30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Кундалини Йога</div>
-                    <div class="-t2">Зал 2, Мубарова Назира</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">08:00-09:00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Кудайберген Жансая</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">09.30-10.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Кудайберген Жансая</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19.00-20.00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Хатха-йога для начинающих</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">19:00-20:15</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Виньяса Флоу Йога</div>
-                    <div class="-t2">Зал 1, Назарова Диана</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20.30-21.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Йога в гамаках (по записи)</div>
-                    <div class="-t2">Зал 2, Венера Искендирова</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">20.30-21.30</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Кундалини Йога</div>
-                    <div class="-t2">Зал 2, Мубарова Назира</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-              <div class="schedule-events-tab" id="tab-saturday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">07:00-10:00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Yoga Teach Astana 7</div>
-                    <div class="-t2">Зал 1, Отепова Асем</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-              <div class="schedule-events-tab" id="tab-sunday">
-                      <ul class="schedule-events">
-                              <li>
-                  <time class="text-nowrap">07:00-10:00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Yoga Teach Astana 7</div>
-                    <div class="-t2">Зал 1, Отепова Асем</div>
-                  </div>
-                </li>
-                              <li>
-                  <time class="text-nowrap">14.00-16.00</time>
-                  <div class="schedule-event">
-                    <div class="-t1">Мастер Класс по кундалини "Раскрытие женственности"</div>
-                    <div class="-t2">Зал 1, Мубарова Назира</div>
-                  </div>
-                </li>
-                          </ul>
-          
-        </div>
-
-      
-    </div>
-  </div>
-</div>    <div class="panel">
-  <div class="panel-body">
-    <a class="label label-blue" href="https://artyogastudio.kz/reviews">Отзывы</a>
-    <div class="small-review">
-      <header class="small-review-header clearfix">
-        <div class="small-review-avatar">
-                      <img src="./Art Yoga Studio_files/59ad1f8bb16b2_45x45.jpg" alt="ВИДЕО-ОТЗЫВ">
-                  </div>
-        <div class="small-review-user">
-          <div class="small-review-name">ВИДЕО-ОТЗЫВ</div>
-          <time class="small-review-time">4 Сентября 2017</time>
-        </div>
-      </header>
-      <div class="small-review-text text"></div>
-    </div>
-  </div>
-</div>    <!-- InstaWidget -->
-<a href="https://instawidget.net/v/user/artyogastudio" id="link-c9b03a7c339bb65088af88c1f28185b469199dfe36f90654e34c783f552d05d6" style="display: none;">@artyogastudio</a>
-<script type="text/javascript" async="" src="./Art Yoga Studio_files/watch.js.Без названия"></script><script src="./Art Yoga Studio_files/instawidget.js.Без названия"></script><iframe id="c9b03a7c339bb65088af88c1f28185b469199dfe36f90654e34c783f552d05d6" style="border: 0px; width: 235px; height: 380px; margin: 0px; padding: 0px;" scrolling="no" frameborder="no" src="./Art Yoga Studio_files/embed.html"></iframe>  </div>
-  <div class="col-md-6 col-sm-8">
-    <div class="panel" id="home-happy-yoga">
-  <div class="gallery" data-loop="1">
-  <script class="json" type="application/json">[{"href":"\/images\/post\/58de437deb6b8_999x666.jpg"},{"href":"\/images\/post\/58c2969c12db8.jpg"},{"href":"\/images\/post\/58de437de9b78_999x666.jpg"},{"href":"\/images\/post\/58de437de3c9d_999x666.jpg"},{"href":"\/images\/post\/58de437df01b2_1000x666.jpg"},{"href":"\/images\/post\/58de437df243b_999x666.jpg"},{"href":"\/images\/post\/58de437dee47a_999x666.jpg"},{"href":"\/images\/post\/58c2968f88547.jpg"},{"href":"\/images\/post\/589722652caec_999x666.jpg"},{"href":"\/images\/post\/5897227a8787a.jpg"},{"href":"\/images\/post\/58971f9732096.jpg"},{"href":"\/images\/post\/589721c6d4f6c_999x666.jpg"},{"href":"\/images\/post\/58971fde53b5e_1000x664.jpg"},{"href":"\/images\/post\/5897204c24244_1000x664.jpg"},{"href":"\/images\/post\/5897207127649_999x664.JPG"},{"href":"\/images\/post\/589721a2c7a78_1000x750.JPG"},{"href":"\/images\/post\/58972208a486a_999x666.jpg"}]</script>
-  <div class="gallery-view" data-zoom="false">
-    <div class="gallery-slides">        <div class="gallery-slide active" data-index="0">
-        <img src="./Art Yoga Studio_files/58de437deb6b8_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="1">
-        <img src="./Art Yoga Studio_files/58c2969c12db8.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="2">
-        <img src="./Art Yoga Studio_files/58de437de9b78_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="3">
-        <img src="./Art Yoga Studio_files/58de437de3c9d_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="4">
-        <img src="./Art Yoga Studio_files/58de437df01b2_1000x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="5">
-        <img src="./Art Yoga Studio_files/58de437df243b_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="6">
-        <img src="./Art Yoga Studio_files/58de437dee47a_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="7">
-        <img src="./Art Yoga Studio_files/58c2968f88547.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="8">
-        <img src="./Art Yoga Studio_files/589722652caec_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="9">
-        <img src="./Art Yoga Studio_files/5897227a8787a.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="10">
-        <img src="./Art Yoga Studio_files/58971f9732096.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="11">
-        <img src="./Art Yoga Studio_files/589721c6d4f6c_999x666.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="12">
-        <img src="./Art Yoga Studio_files/58971fde53b5e_1000x664.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="13">
-        <img src="./Art Yoga Studio_files/5897204c24244_1000x664.jpg" draggable="false">
-        </div>        <div class="gallery-slide" data-index="14">
-        <img src="./Art Yoga Studio_files/5897207127649_999x664.JPG" draggable="false">
-        </div>        <div class="gallery-slide" data-index="15">
-        <img src="./Art Yoga Studio_files/589721a2c7a78_1000x750.JPG" draggable="false">
-        </div>        <div class="gallery-slide" data-index="16">
-        <img src="./Art Yoga Studio_files/58972208a486a_999x666.jpg" draggable="false">
-        </div></div>
-  </div>
-
-      <div class="arrows clearfix">
-      <button class="arrow prev" title="Назад"><i class="fa fa-angle-left"></i></button>
-      <button class="arrow next" title="Вперед"><i class="fa fa-angle-right"></i></button>
-    </div>
-
+<script src="./index_files/jquery.min.js"></script>
     
-      <div class="dot-pagination-wrapper">
-        <ul class="dot-pagination">
-                      <li class=" active"></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                  </ul>
-      </div>
-
     
-  </div>  <a class="label label-blue" href="http://artyogastudio.kz/about">Йога-центр</a>
-  <div class="panel-body">
+-->
 
-    <div class="text-center marg-bot visible-xs">
-      <button class="btn btn-block btn-pink open-bid-modal" data-href="#test-lesson-modal">Записаться на пробное занятие</button>
-    </div>
 
-    <h1>Art Yoga Studio</h1>
-    <div class="row marg-bot">
-      <div class="col-xs-6">
-        <address class="text">г. Астана, ул. Туран, 37/9<br>
-Rixos Khan Shatyr Residences<br>
-(со стороны ТРЦ "Хан Шатыр")<br>
-</address>
-      </div>
-      <div class="col-xs-6">
-        <div class="text">
-          +7 (7172) 43 35 71<br>
-          +7 (701) 300 55 57<br>
-email: info@artyogastudio.kz        </div>
-      </div>
-    </div>
-    <a href="http://artyogastudio.kz/about" class="btn btn-pink">Посмотреть зал</a>
-    <a href="https://artyogastudio.kz/contacts" class="btn btn-pink btn-contacts">Показать на карте</a>
-  </div>
-</div>    <div class="panel booklet clearfix " id="home-directions">
+        <script src="./index_files/saved_resource" type="text/javascript"></script>
 
-  <div class="booklet-gallery">
-    <div class="booklet-gallery-slides">
-              <div class="booklet-gallery-slide active" href="http://artyogastudio.kz/directions/hatha" data-index="0">
-                      <img src="./Art Yoga Studio_files/58c287cb0f73f_319x213.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/kundalini" data-index="1">
-                      <img src="./Art Yoga Studio_files/58c28869103dc_285x319.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/iyengar" data-index="2">
-                      <img src="./Art Yoga Studio_files/58c28a2dcdf90_213x319.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/ashtanga-vinyasa" data-index="3">
-                      <img src="./Art Yoga Studio_files/58c28af000141_259x319.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/pregnant" data-index="4">
-                      <img src="./Art Yoga Studio_files/59ca2750b5bab_319x213.JPG" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/230" data-index="5">
-                      <img src="./Art Yoga Studio_files/594a74ddb59e2_213x320.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/92" data-index="6">
-                      <img src="./Art Yoga Studio_files/58c28cf9a2335_213x319.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/91" data-index="7">
-                      <img src="./Art Yoga Studio_files/58c28d25503f1_319x213.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/93" data-index="8">
-                      <img src="./Art Yoga Studio_files/5899f836c2275_320x320.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/284" data-index="9">
-                      <img src="./Art Yoga Studio_files/5983eb2c004a7_320x249.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/children" data-index="10">
-                      <img src="./Art Yoga Studio_files/5899ff3c7ef6f_320x320.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/128" data-index="11">
-                      <img src="./Art Yoga Studio_files/58c28daf055fa_319x213.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/directions/159" data-index="12">
-                      <img src="./Art Yoga Studio_files/58b693dc1b618_320x195.png" draggable="false">
-                  </div>
-                  </div>
-          <div class="booklet-gallery-pagination">
-        <ul class="dot-pagination clearfix">
-                      <li class=" active"></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                  </ul>
-      </div>
-      </div>
-  <div class="panel-body">
+        <script type="text/javascript" src="./index_files/openapi.js"></script>
+        <div class="vk-modul">
+            <h1 class="vk-title">
+                Cтатья понравилась следующим людям:
+            </h1>
+            <div id="overlay">
+                <div id="vk_groups" style="width: 200px; height: 290px; background: none;"><iframe name="fXD67f5e" frameborder="0" src="./index_files/widget_community.html" width="200" height="290" scrolling="no" id="vkwidget1" style="overflow: hidden; height: 290px;"></iframe></div>
+                <script type="text/javascript">
+                    VK.Widgets.Group("vk_groups", {
+                        mode: 5
+                    }, 26419239);
 
-          <div class="arrows clearfix">
-        <button class="arrow prev" title="Назад"><i class="fa fa-angle-left"></i></button>
-        <button class="arrow next" title="Вперед"><i class="fa fa-angle-right"></i></button>
-      </div>
-    
-    <div class="text">
-      <a href="https://artyogastudio.kz/directions" class="label label-blue">Направления</a>
+                    var link = document.querySelector('.wcommunity_avatar');
 
-              <div class="booklet-text active" data-index="0">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/hatha">Хатха йога</a></h1>
-          <p>Система практик для гармоничного оздоровления тела</p>
-        </div>
-                      <div class="booklet-text" data-index="1">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/kundalini">Кундалини йога</a></h1>
-          <p>Эффективная технология работы с телом и сознанием</p>
-        </div>
-                      <div class="booklet-text" data-index="2">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/iyengar">Айенгар йога</a></h1>
-          <p>Называют йогой исцеления, потому что она излечивает от всех болезней</p>
-        </div>
-                      <div class="booklet-text" data-index="3">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/ashtanga-vinyasa">Аштанга виньяса йога</a></h1>
-          <p>Динамическая практика асан в традиции Патабхи Джойса</p>
-        </div>
-                      <div class="booklet-text" data-index="4">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/pregnant">Йога для беременных</a></h1>
-          <p>Лучший вид физической нагрузки для будущих мам</p>
-        </div>
-                      <div class="booklet-text" data-index="5">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/230">Женская йога</a></h1>
-          <p>Мягкая практика, показанная для любого возраста, особенно хорошо подходит для новичков и женщин после 50 лет.</p>
-        </div>
-                      <div class="booklet-text" data-index="6">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/92">Виньяса флоу йога</a></h1>
-          <p>Динамическая практика асан в свободном потоке</p>
-        </div>
-                      <div class="booklet-text" data-index="7">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/91">Йога в гамаках</a></h1>
-          <p>Незабываемые ощущения полёта и невесомости!</p>
-        </div>
-                      <div class="booklet-text" data-index="8">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/93">Йога грация</a></h1>
-          <p>Йога для девочек старшего школьного возраста (12 - 16 лет)</p>
-        </div>
-                      <div class="booklet-text" data-index="9">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/284">Интервальная йога</a></h1>
-          <p>Высокоинтенсивная тренировка для похудения</p>
-        </div>
-                      <div class="booklet-text" data-index="10">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/children">Детская йога</a></h1>
-          <p>Йога для самых маленьких: растяжка, осанка, игры</p>
-        </div>
-                      <div class="booklet-text" data-index="11">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/128">Открытый урок</a></h1>
-          <p>Открытый бесплатный урок каждое Воскресенье! (строго по записи)</p>
-        </div>
-                      <div class="booklet-text" data-index="12">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/directions/159">Динамическая медитация ОШО</a></h1>
-          <p>Техника, дающая возможность выплеснуть всю подавленную энергию</p>
-        </div>
-              
-    </div>
-  </div>
-</div>    <div class="panel booklet clearfix  booklet-right" id="home-instructors">
+                    link.addEventListener("click", function(e) {
+                        e.preventDefault;
+                        return false;
+                    })
 
-  <div class="booklet-gallery">
-    <div class="booklet-gallery-slides">
-              <div class="booklet-gallery-slide active" href="http://artyogastudio.kz/instructors/14" data-index="0">
-                      <img src="./Art Yoga Studio_files/58c3c63bbb49e_320x320.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/13" data-index="1">
-                      <img src="./Art Yoga Studio_files/58c297c9b1ff7_319x299.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/12" data-index="2">
-                      <img src="./Art Yoga Studio_files/58c0d7e530022_213x319.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/11" data-index="3">
-                      <img src="./Art Yoga Studio_files/58c248b1072cf_213x320.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/95" data-index="4">
-                      <img src="./Art Yoga Studio_files/58c1537e98cca_213x319.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/304" data-index="5">
-                      <img src="./Art Yoga Studio_files/59c0f74f64d86_319x252.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/309" data-index="6">
-                      <img src="./Art Yoga Studio_files/59ca2c3b43ab0_319x213.JPG" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/231" data-index="7">
-                      <img src="./Art Yoga Studio_files/594a677102213_320x213.jpg" draggable="false">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/243" data-index="8">
-                  </div>
-                      <div class="booklet-gallery-slide" href="http://artyogastudio.kz/instructors/256" data-index="9">
-                      <img src="./Art Yoga Studio_files/5965e550d0ba2_240x320.jpg" draggable="false">
-                  </div>
-                  </div>
-          <div class="booklet-gallery-pagination">
-        <ul class="dot-pagination clearfix">
-                      <li class=" active"></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                      <li class=""></li>
-                  </ul>
-      </div>
-      </div>
-  <div class="panel-body">
-
-          <div class="arrows clearfix">
-        <button class="arrow prev" title="Назад"><i class="fa fa-angle-left"></i></button>
-        <button class="arrow next" title="Вперед"><i class="fa fa-angle-right"></i></button>
-      </div>
-    
-    <div class="text">
-      <a href="https://artyogastudio.kz/instructors" class="label label-blue">Инструкторы</a>
-
-              <div class="booklet-text active" data-index="0">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/14">Отепова Асем</a></h1>
-          <p>хатха-йога</p>
-        </div>
-                      <div class="booklet-text" data-index="1">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/13">Мубарова Назира</a></h1>
-          <p>кундалини йога</p>
-        </div>
-                      <div class="booklet-text" data-index="2">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/12">Кудайберген Жансая</a></h1>
-          <p>йога в гамаках</p>
-        </div>
-                      <div class="booklet-text" data-index="3">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/11">Назарова Диана</a></h1>
-          <p>виньяса флоу йога</p>
-        </div>
-                      <div class="booklet-text" data-index="4">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/95">Михно Елена</a></h1>
-          <p>айенгар йога</p>
-        </div>
-                      <div class="booklet-text" data-index="5">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/304">Омарбаева Нелли</a></h1>
-          <p>виньяса флоу йога</p>
-        </div>
-                      <div class="booklet-text" data-index="6">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/309">Айнур Майсаканова</a></h1>
-          <p>йога для беременных</p>
-        </div>
-                      <div class="booklet-text" data-index="7">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/231">Сауле Нехаева</a></h1>
-          <p>женская йога</p>
-        </div>
-                      <div class="booklet-text" data-index="8">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/243">Шамсутдинова Василя</a></h1>
-          <p>кундалини йога</p>
-        </div>
-                      <div class="booklet-text" data-index="9">
-          <h1 class="booklet-title"><a href="http://artyogastudio.kz/instructors/256">Венера Искендирова</a></h1>
-          <p>хатха-йога</p>
-        </div>
-              
-    </div>
-  </div>
-</div>  </div>
-
-  <div class="col-md-3 hidden-sm hidden-xs">
-
-    <div class="panel">
-
-      <div class="tabs-wrapper">
-        <ul class="tabs" id="home-news-tabs">
-          <li class="active" data-category="news"><a href="https://artyogastudio.kz/news" class="label label-blue">Йога ивент</a></li>
-          <li data-category="blog"><a href="https://artyogastudio.kz/blog" class="label label-blue">Блог</a></li>
-        </ul>
-      </div>
-
-      <div class="panel-body">
-        <div class="home-posts" id="home-news">
-          <article class="news-item">
-  <a class="news-item-media" href="http://artyogastudio.kz/news/307">
-          <img src="./Art Yoga Studio_files/59c21f70767c3_205x118.jpg" alt="ИННОВАЦИОННЫЙ БАЗОВЫЙ КУРС ПОДГОТОВКИ  ПРОФЕССИОНАЛЬНЫХ ПРЕПОДАВАТЕЛЕЙ ХАТХА ЙОГИ в Астане">
-          </a>
-    <div class="text"><a href="http://artyogastudio.kz/news/307">ИННОВАЦИОННЫЙ БАЗОВЫЙ КУРС ПОДГОТОВКИ  ПРОФЕССИОНАЛЬНЫХ ПРЕПОДАВАТЕЛЕЙ ХАТХА ЙОГИ в Астане</a></div>
-</article><article class="news-item">
-  <a class="news-item-media" href="http://artyogastudio.kz/news/292">
-          <img src="./Art Yoga Studio_files/5996b4f171f32_205x118.JPG" alt="Третий семинар от Игоря Пантюшева &quot;Биомеханика в движении&quot;">
-          </a>
-    <div class="text"><a href="http://artyogastudio.kz/news/292">Третий семинар от Игоря Пантюшева "Биомеханика в движении"</a></div>
-</article></div>
-        <div class="home-posts" id="home-blog" style="display:none;">
-          <article class="news-item">
-  <a class="news-item-media" href="http://artyogastudio.kz/blog/185">
-          <img src="./Art Yoga Studio_files/58eba66a3d4de_205x118.jpg" alt="Как приготовить натуральный дезодорант в домашних условиях?">
-          </a>
-      <time class="news-item-time">10 Апреля 2017</time>
-    <div class="text"><a href="http://artyogastudio.kz/blog/185">Как приготовить натуральный дезодорант в домашних условиях?</a></div>
-</article><article class="news-item">
-  <a class="news-item-media" href="http://artyogastudio.kz/blog/180">
-          <img src="./Art Yoga Studio_files/58e7c1c03b50a_205x118.jpg" alt="Почему не желательно пользоваться дезодорантом-антиперспирантом?">
-          </a>
-      <time class="news-item-time">7 Апреля 2017</time>
-    <div class="text"><a href="http://artyogastudio.kz/blog/180">Почему не желательно пользоваться дезодорантом-антиперспирантом?</a></div>
-</article></div>
-      </div>
-    </div>
-
-    <div class="panel">
-      <div class="panel-body">
-        <a href="https://artyogastudio.kz/home-practice" class="label label-blue">Домашняя практика йоги</a>
-        <div class="marg-top-lg"><article class="news-item">
-  <a class="news-item-media" href="http://artyogastudio.kz/home-practice/67">
-          <img src="./Art Yoga Studio_files/58a7f2ad70051_205x118.jpg" alt="Комплекс Сурья Намаскар">
-          </a>
-      <time class="news-item-time">3 Января 2017</time>
-    <div class="text"><a href="http://artyogastudio.kz/home-practice/67">Комплекс Сурья Намаскар</a></div>
-</article></div>
-      </div>
-    </div>
-
-  </div>
-</div>    </div>
-  </div>
-  <footer class="page-footer">
-  <div class="container">
-    <div class="row page-footer-top">
-      <div class="col-sm-6">
-
-        <div class="page-footer-description">
-          <div class="page-footer-title">Art Yoga Studio - студия современной йоги</div>
-          <div class="page-footer-text">Йога - стиль Жизни! </div>
-        </div>
-
-                <ul class="socials clearfix">
-                      <li class="-instagram"><a class="fa fa-instagram" href="https://artyogastudio.kz/away?type=social&amp;alias=instagram&amp;href=https://www.instagram.com/artyogastudio/" target="_blank"></a></li>
-                      <li class="-facebook"><a class="fa fa-facebook" href="https://artyogastudio.kz/away?type=social&amp;alias=facebook&amp;href=https://www.facebook.com/groups/143862925738943/?fref=ts" target="_blank"></a></li>
-                      <li class="-vk"><a class="fa fa-vk" href="https://artyogastudio.kz/away?type=social&amp;alias=vk&amp;href=https://vk.com/artyogastudio" target="_blank"></a></li>
-                  </ul>
-      </div>
-
-      <div class="col-sm-6 hidden-xs">
-        <div class="row">
-          <div class="col-md-4 hidden-sm">
-
-            <div>
-              <div class="page-footer-title">Art Yoga Studio</div>
-              <div class="page-footer-text">
-                <ul>
-                  <li><a href="https://artyogastudio.kz/about">О нас</a></li>
-                  <li><a href="https://artyogastudio.kz/news">Новости</a></li>
-                  <li><a href="https://artyogastudio.kz/blog">Блог</a></li>
-                  <li><a href="https://artyogastudio.kz/reviews">Отзывы</a></li>
-                  <li><a href="https://artyogastudio.kz/photo">Фотогалерея</a></li>
-                  <li><a href="https://artyogastudio.kz/contacts">Контакты</a></li>
-                </ul>
-              </div>
+                </script>
             </div>
+            <style type="text/css">
+                .vk-modul {
+                    max-width: 200px;
+                    position: fixed;
+                    right: 50px;
+                    bottom: 50px;
+                    background-color: #fff;
+                    box-shadow: 0px 15px 45px 0px rgba(0, 0, 0, 0.19);
+                    pointer-events: none !important;
+                    z-index: 66666666;
+                }
 
-          </div>
+                #overlay {
+                    overflow: hidden;
+                    height: 160px;
 
-          <div class="col-sm-6 col-md-3">
 
-            <div>
-              <div class="page-footer-title">Йога</div>
-              <div class="page-footer-text">
-                <ul>
-                  <li><a href="https://artyogastudio.kz/timetable">Расписание</a></li>
-                  <li><a href="https://artyogastudio.kz/instructors">Инструкторы</a></li>
-                  <li><a href="https://artyogastudio.kz/season-tickets">Абонементы</a></li>
-                  <li><a href="https://artyogastudio.kz/directions">Направления</a></li>
-                  <li><a href="https://artyogastudio.kz/home-practice">Полезное</a></li>
-                </ul>
-              </div>
-            </div>
+                }
 
-          </div>
+                #vk_groups {
+                    position: relative;
+                    top: -85px;
+                }
 
-          <div class="col-sm-6 col-md-5">
-            <div class="page-footer-title">Контакты</div>
-            <div class="page-footer-text">
-              г. Астана, ул. Туран, 37/9<br>
-Rixos Khan Shatyr Residences<br>
-(со стороны ТРЦ "Хан Шатыр")<br>
-<br>
-              <br>
-              +7 (7172) 43 35 71<br>
-              +7 (701) 300 55 57<br>
-email: info@artyogastudio.kz            </div>
-          </div>
+                .vk-title {
+                    font-size: 16px;
+                    text-align: center;
+                    max-width: 175px;
+                    background-color: rgb(238, 130, 8);
+                    color: #fff;
+                    margin: 0 0 10px;
+                    min-width: 190px;
+                    padding: 3px 5px;
+                }
+
+                .wcommunity_avatar {
+                    pointer-events: none !important;
+                }
+
+                body {
+                    position: relative;
+                }
+
+                @media (max-width: 1200px) {
+                    .vk-modul {
+                        display: none;
+                    }
+                }
+
+                @media (max-width: 1400px) {
+                    .vk-modul {
+                        right: 0;
+                    }
+                }
+
+            </style>
         </div>
-      </div>
+        <!-- VK FAKE ENd -->
 
-    </div>
-    <div class="row page-footer-bottom">
-      <div class="col-xs-6">
-        <div class="copyright">© Art Yoga Studio. 2017</div>
-      </div>
-      <div class="col-xs-6">
-        <div class="developer text-right">Design by
-          <a href="http://upsell.kz/" target="_blank">Upsell.kz</a></div>
-      </div>
-    </div>
-  </div>
-</footer></main>
-<div class="hidden">
-  <form method="post" action="https://artyogastudio.kz/bid" class="bid-form" id="test-lesson-modal">
-  <div class="border">
-    <div class="border">
-      <div class="content">
-        <div class="text-center">
-          <h2>Пробное занятие</h2>
-          <p class="text">Введите ваши контактные данные и наш менеджер свяжется с вами для консультации</p>
-        </div>
 
-        <div class="inputs">
-          <div class="form-group error-container">
-            <input name="name" value="" class="form-control" placeholder="Введите имя" onfocus="this.value = this.value;">
-          </div>
 
-          <div class="form-group error-container">
-            <input name="tel" type="tel" value="" class="form-control" placeholder="Введите телефон">
-          </div>
 
-          <input type="hidden" name="subject" value="Пробное занятие">
-          <button type="submit" class="btn btn-pink btn-submit btn-block">Отправить заявку<i class="fa fa-refresh fa-spin marg-lt loader"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-</form>  <div id="success-modal">
-  <div class="border">
-    <div class="border">
-      <div class="content">
-        <div class="text-center">
-          <h2 class="title">Спасибо, ваша заявка принята</h2>
-          <div class="text"><p>Наш менеджер свяжется<br>с вами в ближайшее время</p></div>
-        </div>
-        <button name="ok" class="btn btn-pink center-block click-fancybox-close">OK</button>
-      </div>
-    </div>
-  </div>
-</div>  <form method="post" action="https://artyogastudio.kz/bid" class="bid-form" id="bid-modal">
-  <div class="border">
-    <div class="border">
-      <div class="content">
-        <div class="text-center">
-          <h2>Обратная связь</h2>
-          <p class="text">Введите ваши контактные данные и наш менеджер свяжется с вами для консультации</p>
-        </div>
 
-        <div class="inputs">
-          <div class="form-group error-container">
-            <input name="name" value="" class="form-control" placeholder="Введите имя" onfocus="this.value = this.value;">
-          </div>
 
-          <div class="form-group error-container">
-            <input name="tel" type="tel" value="" class="form-control" placeholder="Введите телефон">
-          </div>
+    </body>
 
-          <div class="form-group error-container">
-            <input name="email" type="text" value="" class="form-control" placeholder="Введите Email">
-          </div>
-
-          <input type="hidden" name="subject" value="Заявка на обратный звонок">
-          <button type="submit" class="btn btn-pink btn-submit btn-block">Получить консультацию<i class="fa fa-refresh fa-spin marg-lt loader"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-</form></div>
-<script src="./Art Yoga Studio_files/require.js.Без названия"></script>
-<script>require(['/js/common.js'], function () { require(['/js/main.js', '/js/home.js']) })</script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter42123604 = new Ya.Metrika({ id:42123604, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript>&lt;div&gt;&lt;img src="https://mc.yandex.ru/watch/42123604" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript> <!-- /Yandex.Metrika counter -->
-</body></html>
+</html>
